@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-style: bold;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color:black;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 500px;
+    background-image: url('../images/_DSC0035.jpg');
+    background-size: cover;
+    
+    position: relative;
+}
+
+
+header .encabezado{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.encabezado h1{
+    font-size: 50px;
+    color: black;
+}
+
+.encabezado h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:rgb(48, 48, 48);
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* About us */
+
+main .mis-hobbies{
+    padding: 90px 0 60px 0;
+    color: rgb(17, 17, 17);
+}
+.contenedor-mis-hobbies{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagenmia{
+    width: 50%;
+    margin-right: 4%;
+}
+
+.hobbies-textos p{
+    margin-bottom: 2%;
+}
+
+.table.tabla1 {
+    width: auto;
+    margin: 0 auto;
+  }
+
+.tablas{
+    margin-left: 9%;
+}
